@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import { TrackForm } from "./components/TrackForm";
+import { Track } from "./components/Track";
 
 function App() {
   return (
     <div className="App">
-      <TrackForm />
+      <Track />
     </div>
   );
 }
