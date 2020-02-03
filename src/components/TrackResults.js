@@ -2,7 +2,6 @@ import React from "react";
 
 export function TrackResults(props) {
   const data = props.data;
-  const handleEdit = props.handleEdit;
   const handleRemove = props.handleRemove;
 
   return (
@@ -22,9 +21,6 @@ export function TrackResults(props) {
                 <td>{e.date}</td>
                 <td>{e.distance}</td>
                 <td>
-                  <button onClick={handleEdit} value={i}>
-                    Edit
-                  </button>
                   <button onClick={handleRemove} value={i}>
                     Remove
                   </button>
