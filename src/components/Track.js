@@ -49,12 +49,7 @@ export function Track(props) {
 
   return (
     <div>
-      <TrackForm
-        trackData={trackData}
-        setTrackData={setTrackData}
-        onSubmit={handleSubmit}
-      />
-
+      <TrackForm onSubmit={handleSubmit} />
       <TrackResults data={trackData} handleRemove={handleRemove} />
     </div>
   );
